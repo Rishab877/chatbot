@@ -1,6 +1,7 @@
 # main.py
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
+import uvicorn
 import api  # Importing the api module you created
 
 # Initialize FastAPI app
